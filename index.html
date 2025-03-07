@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dia dos Namorados 💖</title>
+<style>
+    body {
+        background-color: #ffd1dc;
+        background-image: url('https://i.gifer.com/origin/1c/1c29154636f73295ad5fe84068c7a180_w200.gif'); /* Substitua 'seu-gif.gif' pelo caminho do seu GIF da Hello Kitty */
+        background-size: 300px; /* Ajusta o tamanho do GIF */
+        background-repeat: no-repeat;
+        background-position: center; /* Centraliza o GIF no meio da tela */
+        background-attachment: fixed;
+        color: #ff69b4;
+        text-align: center;
+        font-family: 'Arial', sans-serif;
+    }
+    .heart {
+        color: #ff1493;
+        font-size: 50px;
+        margin: 20px;
+    }
+    #counter {
+        font-size: 40px;
+        background-color: rgba(255, 255, 255, 0.7);
+        display: inline-block;
+        padding: 10px;
+        border-radius: 20px;
+        margin-top: 20px;
+    }
+    .names {
+        margin-top: 30px;
+        font-size: 30px;
+        color: #ff69b4;
+        background-color: rgba(255, 255, 255, 0.7);
+        display: inline-block;
+        padding: 5px 15px;
+        border-radius: 20px;
+    }
+    .gallery {
+        margin-top: 20px;
+    }
+    .gallery img {
+        width: 200px;
+        height: auto;
+        margin: 10px;
+        border-radius: 15px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    }
+    .text-love {
+        max-width: 800px;
+        margin: 30px auto;
+        background-color: rgba(255, 255, 255, 0.7);
+        padding: 20px;
+        border-radius: 15px;
+        color: #ff69b4;
+        font-size: 20px;
+        line-height: 1.6;
+        text-align: justify;
+    }
+</style>
+</head>
+<body>
+<h1 class="heart">💖 Feliz Dia dos Namorados 💖</h1>
+<div id="counter"></div>
+<div class="text-love">
+    <p><strong>Minha Amada Mariely,</strong> 💖</p>
+    <p>Desde o primeiro momento em que nossos olhares se cruzaram, meu coração encontrou o lar que tanto procurava. Cada segundo ao seu lado é precioso, e eu não consigo imaginar minha vida sem você, nem por um minuto sequer. Você é a razão dos meus sorrisos, das minhas melhores lembranças, e a dona do meu coração para sempre.</p>
+    <p>Eu amo a nossa química, essa conexão intensa que faz nossos corpos e almas se entenderem sem palavras. Nosso desejo um pelo outro é um fogo que nunca se apaga, e eu adoro cada instante em que estamos juntos, em que sinto seu toque, seu abraço e a paz que só você me traz.</p>
+    <p>Você já fez tanto por mim, em momentos bons e ruins, sempre segurando minha mão com a mesma força e amor. Seu carinho me faz querer ser melhor a cada dia, e seu sorriso ilumina até os dias mais escuros. Sem você, eu simplesmente não me vejo fazendo nada; seria como estar morto, sem rumo, sem vida.</p>
+    <p>Eu te amo mais do que palavras podem explicar, mais do que qualquer promessa poderia alcançar. Que cada dia nosso seja como hoje: cheio de amor, carinho e a certeza de que fomos feitos um para o outro. Obrigado por ser minha luz, minha paz e, acima de tudo, meu amor eterno.</p>
+    <p><strong>Eu te amo infinitamente, Mariely!</strong> 💞</p>
+    <p><strong>Para sempre seu,</strong><br>Murilo 💖</p>
+</div>
+<div class="gallery">
+    <img src="imagem1.jpg" alt="Foto 1">
+    <img src="imagem2.jpg" alt="Foto 2">
+</div>
+<div class="names">Murilo & Mariely 💞</div>
+<script>
+    const startDate = new Date("2024-09-13");
+    const today = new Date();
+    const diffTime = Math.abs(today - startDate);
+    const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+    document.getElementById("counter").innerText = `Estamos juntos há ${diffDays} dias! 🥰`;
+</script>
+</body>
+</html>
+
